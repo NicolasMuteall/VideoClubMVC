@@ -13,7 +13,7 @@
                     <td><a href="resa3.php?film=<?=$resultat->TITRE_FILM?>"><?= $resultat->TITRE_FILM?></a></td>
                     <td><?= $resultat->ANNEE_FILM ?></td>
                     <td><?= $resultat->PRENOM_STAR . " " . $resultat->NOM_STAR ?></td>
-                    <td><img src="./assets/FilmMiniatures/<?= $resultat->LIB_TYPE_FILM.'/'.$resultat->REF_IMAGE ?>" alt="affiche"></td>
+                    <td><img src="../assets/FilmMiniatures/<?= $resultat->LIB_TYPE_FILM.'/'.$resultat->REF_IMAGE ?>" alt="affiche"></td>
                 </tr>
             <?php 
             }

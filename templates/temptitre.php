@@ -16,23 +16,23 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="./assets/DesignVideoClub/VCLogo.gif" alt="logo" width="50" height="44"></a>
+            <a class="navbar-brand" href="#"><img src="/EX_PHP/VideoClubMVC/assets/DesignVideoClub/VCLogo.gif" alt="logo" width="50" height="44"></a>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.php">Accueil</a>
+                        <a class="nav-link" aria-current="page" href="/EX_PHP/VideoClubMVC/index.php">Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="resa.php">Réserver un film</a>
+                        <a class="nav-link" href="/EX_PHP/VideoClubMVC/Control/resa.php">Réserver un film</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="VCIConstr.php">Les boutiques VC</a>
+                        <a class="nav-link" href="/EX_PHP/VideoClubMVC/templates/VCIConstr.php">Les boutiques VC</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="VCIConstr.php">Actualités</a>
+                        <a class="nav-link" href="/EX_PHP/VideoClubMVC/templates/VCIConstr.php">Actualités</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="VCIConstr.php">Nous contacter</a>
+                        <a class="nav-link" href="/EX_PHP/VideoClubMVC/templates/VCIConstr.php">Nous contacter</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" id="admin" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Admin</a>
@@ -47,7 +47,7 @@
     </nav>
     <div class="container-fluid">
         <div class="float-start">
-            <img class='rounded img-fluid' src="./assets/DesignVideoClub/Popcorn.png" alt="popcorn">
+            <img class='rounded img-fluid' src="/EX_PHP/VideoClubMVC/assets/DesignVideoClub/Popcorn.png" alt="popcorn">
         </div>
         <div class="float-end">
             <?= $jours." ".$mois." ".$dateDuJour["year"]."<br>"; ?>
@@ -60,7 +60,7 @@
                         <h5 class="modal-title mx-auto" id="staticBackdropLabel">Connexion Admin</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <form action="admin.php" method="POST" class="">
+                    <form action="/EX_PHP/VideoClubMVC/Control/admin.php" method="POST" class="">
                         <div class="modal-body">                    
                             <div class="d-flex justify-content-center">
                                 <table class="table table-borderless align-middle text-center">

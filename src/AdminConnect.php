@@ -3,6 +3,6 @@
     $results = $reponse->fetch(PDO::FETCH_OBJ);
 
     if($results === false){
-        header('Location: index.php');
+        header('Location: /EX_PHP/VideoClubMVC/index.php');
     }
 ?>

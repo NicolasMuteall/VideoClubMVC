@@ -4,7 +4,7 @@
     <div class="container d-flex justify-content-center">
         <div class="rounded border shadow-sm d-flex align-items-center">    
             <div>
-                <img width="80" height="120" src="./assets/FilmMiniatures/<?=$results->LIB_TYPE_FILM.'/'.$results->REF_IMAGE?>" alt="affiche">
+                <img width="80" height="120" src="../assets/FilmMiniatures/<?=$results->LIB_TYPE_FILM.'/'.$results->REF_IMAGE?>" alt="affiche">
             </div>
             <div class="px-2">
             <table class="align-middle">
